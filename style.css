@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.729),rgba(0, 0, 0, 0.955)
+    ); 
+    min-height: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.logo{
+    width: 40px;
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header ul {
+    display: flex;
+
+}
+header ul li {
+    padding: 0 10px;
+    margin: 0 40px;
+    list-style: none;
+}
+header ul li a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+header ul li a:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 6px 6px;
+    color: red;
+    cursor: pointer;
+
+}
+.main .text h1{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.main .text p{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    padding: 5px 0;
+}
+.main{
+    position: relative;
+    width: 80%;
+     display: flex;
+     margin: auto;
+  
+  
+    justify-content: space-between;
+    align-items: center;
+   
+ 
+} 
+ .main .text{
+    width: 40%;
+    
+}
+
+.text a{
+    color: white;
+    text-decoration: none;
+    background-color: brown;
+    padding:  6px 6px;
+    border-radius: 4px;
+}
+
+.main .img{
+  width: 15%;
+
+}
+.images{
+    position: absolute;
+    bottom: 0;
+    
+}
+.images img{
+    width: 50px;
+    transition: 1s;
+}
+.images img:hover{
+    transform: scale(1.1);
+}
+
